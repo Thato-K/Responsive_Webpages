@@ -1,0 +1,49 @@
+{
+    "user" : {
+        "fullName": "Thato Kgasago",
+        "photo": "IMG_2023.jpg"
+    },
+
+    "city" : {
+        "name" : "Singapore Green City",
+        "photo": "Singapore city.jpg",
+        "description" : "Singapore is one of the top cities in the Green City Index. It has been prioritizing sustainability in integrated planning, high-density development and conservation of green areas after acquiring independence in 1965. Hence it is called Green City."
+    },
+
+    "foreignLanguage" : {
+        "language" : "Latin",
+        "phrases" : [{
+            "englishPhrase" : "I am the conqueror",
+            "foreignLanguage": "Ego sum victor"
+        },
+        {
+            "englishPhrase" : "I am the emperor",
+            "foreignLanguage" : "Ego sum imperator"
+        },
+        {
+            "englishPhrase" : "I am the champion",
+            "foreignLanguage" : "Ego sum vindicem"
+        } 
+    ]
+    },
+
+    "favouriteSubjects" : [
+        {
+            "name" : "Environmental Management",
+            "description" : "A study of Earth's natural resources, the way in which human societies interact with them, and ways in which they can be sustainably managed.",
+            "photo" :"ENM.jpg" 
+        },
+        {
+            "name" : "Energy Politics",
+            "description" : "A study of the dilemmas and trade-offs involved in efforts to transform national and global energy systems and a framework for critically analysing the role of political power in energy transitions.",
+            "photo" : "EP.jpeg"
+        },
+        {
+            "name" : "Energy Modelling",
+            "description" : "The process of building computer models of energy systems in order to analyze them. Such models often employ scenario analysis to investigate different assumptions about the technical and economic conditions at play.",
+            "photo" : "EM.jpeg"
+        }
+    ]
+
+}
+
