@@ -12,10 +12,100 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
             
+    
 
 </head>
-<body>
-    <h1>Thato Kgasago</h1>
+<body style="background-color:rgb(95, 163, 95);">
+    <h3 class="center-align" style="font-style:italic;">Welcome to my materialize page</h3>
+
+     <section class="row" style="background-image: url('table-mountain.png'); background-size: cover; background-position: center center;">
+       <h4 style="color: white;">{{user.fullName}}</h4>
+
+        <div  style="color: white;">
+            <div class="col s12 m6"><p></p>Qualifications: BSc, BSc Honours, and MSc(in progress)<br>
+                Other interests: Poetry,Debate and Spelling bee<br>
+                Fact about her: She is Ambidextrous<br>
+                Proud moments: When her poem got published<br>
+                Career path: An upcoming Sustainability and Energy Consultant<br>
+            </div>
+            
+        </div>  
+
+        <div class="col s12 m4">
+              
+            <img src="{{user.photo}}" width="350">
+       
+        </div>
+           
+     </section>
+     
+     <hr>
+     
+     <section class="row">
+
+        <div class="col s12 m4">
+            <h4>{{city.name}}</h4>
+            <img src="{{city.photo}}" width="400">
+        </div>
+
+        <div class="col s12 m6" valign-wrapper>
+            <h class="center-align">{{city.description}}</h4>
+
+        </div>
+
+    </section> 
+
+     <hr>
+
+     <section class="row">
+
+        <div class="striped">
+            <h4> A Foreign Language</h4>
+            <h>The following phrases below have been translated from a Latin language to an English language. They are Thato's favourite phrases because they uplift her whenever the going gets tough</h5>
+          <table class="table table-success table-striped">
+              <thead>
+                <tr>
+                  <th>Foreign Phrase</th>
+                  <th>English Phrase</th>
+                </tr>
+              </thead>
+              <tbody>
+                    {{#each foreignLanguage.phrases}}
+                    <tr>
+                  <td>{{foreignLanguage}}</td>
+                  <td>{{englishPhrase}}</td>
+                </tr>
+                    {{/each}}
+              </tbody>
+          </table>
+        </div>
+
+     </section> 
+
+     <hr>
+
+    <section class="row"> 
+
+    <h4>Favourite Subjects</h4>
+
+    <div class="row">
+        {{#each favouriteSubjects}}
+        <div class="col s12 m8 l4">
+            <div class="card small">
+                <div class="card-image">
+                    <img src="{{photo}}">
+                    <span class="card-title"><strong>{{name}}</strong></span>
+                </div>
+                <div class="card-content">
+                    <p>{{description}}</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+</section>
+
     
 </body>
 </html>

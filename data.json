@@ -36,12 +36,12 @@
         {
             "name" : "Energy Politics",
             "description" : "A study of the dilemmas and trade-offs involved in efforts to transform national and global energy systems and a framework for critically analysing the role of political power in energy transitions.",
-            "photo" : "EP.jpeg"
+            "photo" : "square.jpeg"
         },
         {
             "name" : "Energy Modelling",
             "description" : "The process of building computer models of energy systems in order to analyze them. Such models often employ scenario analysis to investigate different assumptions about the technical and economic conditions at play.",
-            "photo" : "EM.jpeg"
+            "photo" : "image-asset.jpeg"
         }
     ]
 
